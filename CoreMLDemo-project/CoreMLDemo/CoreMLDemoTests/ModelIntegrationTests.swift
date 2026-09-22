@@ -1,6 +1,7 @@
 import CoreML
 import XCTest
 @testable import CoreMLDemo
+import UIKit
 
 @MainActor
 final class ModelIntegrationTests: XCTestCase {
