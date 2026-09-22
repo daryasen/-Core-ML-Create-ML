@@ -14,7 +14,7 @@ LABELS_URL = "https://raw.githubusercontent.com/pytorch/hub/master/imagenet_clas
 
 def main() -> None:
     # The model is loaded directly from the official PyTorch Vision Hub repo.
-    model = torch.hub.load("pytorch/vision:v0.25.0", "mobilenet_v2", weights="DEFAULT")
+    model = torch.hub.load("pytorch/vision:v0.22.1", "mobilenet_v2", weights="DEFAULT")
     model.eval()
 
     class NormalizedModel(nn.Module):
